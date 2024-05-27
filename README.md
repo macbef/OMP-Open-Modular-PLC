@@ -9,12 +9,29 @@ But wouldn't it be nice to have something that combines these two worlds? A PLC 
 
 We took a shot at this and started our own PLC, based on the seasoned STM32F103 controller family and the great stm32duino project.
 
-## System
+## Hardware
 ![demo_02_s](https://github.com/macbef/OMP-Open-Modular-PLC/assets/26661902/bc4a901c-3bf4-41e9-8819-79343546f2d5)
 ![PLCminiMitDisplay](https://github.com/macbef/OMP-Open-Modular-PLC/assets/26661902/1c653650-4f51-4067-9f07-3e704d1f405f)
 
 ![montage_01](https://github.com/macbef/OMP-Open-Modular-PLC/assets/26661902/3e83ede2-5598-4f67-a51a-0e88b228c058)
-![PLCcontroller_V1_1_iso](https://github.com/macbef/OMP-Open-Modular-PLC/assets/26661902/85b3a072-0a39-4d3a-8051-78a15fbee568)
+
+### Controller
+
+![PLCcontroller_V1_1_iso_s](https://github.com/macbef/OMP-Open-Modular-PLC/assets/26661902/1110a945-aa1d-4932-99c1-25e2b2123d0e)
+
+
+### Modules
+
+![modules_s](https://github.com/macbef/OMP-Open-Modular-PLC/assets/26661902/19fa7861-c609-492e-9014-1b9ae54fe8c6)
+
+#### Modules built so far (sorry, in German):
+
+![moduleList_1](https://github.com/macbef/OMP-Open-Modular-PLC/assets/26661902/b4714c44-d916-477d-b58f-f123c8ecd978)
+![moduleList_2](https://github.com/macbef/OMP-Open-Modular-PLC/assets/26661902/d3d23778-1be9-4b49-8d8a-a6b02faffd4b)
+
+
+
+More specs to come....
 
 
 
