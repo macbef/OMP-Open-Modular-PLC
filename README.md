@@ -9,6 +9,27 @@ But wouldn't it be nice to have something that combines these two worlds? A PLC 
 
 We took a shot at this and started our own PLC, based on the seasoned STM32F103 controller family and the great stm32duino project.
 
+There are 2 ways to use this PLC:
+
+  * For those who are brave the code of the controller can be modified to match your application
+  * A lot easier is using the "stock-firmware".
+
+Here is what it does:
+
+  - auto-detect the connected modules at startup
+  - collect data
+  - display the current state of all in- and outputs on a tiny OELD display
+  - listens to commands on the USB and serial port
+
+The serial commands are easy, jsut like this:
+
+```
+"SET 2 3 1"  -> Set Module #2 , Channel #3 to "1"
+"GET 3 1"    -> Get the value of channel #1 on module #3
+"?"          -> Get all values
+```
+
+
 ## Hardware
 ![demo_02_s](https://github.com/macbef/OMP-Open-Modular-PLC/assets/26661902/bc4a901c-3bf4-41e9-8819-79343546f2d5)
 ![PLCminiMitDisplay](https://github.com/macbef/OMP-Open-Modular-PLC/assets/26661902/1c653650-4f51-4067-9f07-3e704d1f405f)
