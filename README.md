@@ -48,8 +48,7 @@ The serial commands are easy, jsut like this:
 #### Modules built so far (sorry, in German):
 
 ![moduleList_1](https://github.com/macbef/OMP-Open-Modular-PLC/assets/26661902/b4714c44-d916-477d-b58f-f123c8ecd978)
-![moduleList_2](https://github.com/macbef/OMP-Open-Modular-PLC/assets/26661902/d3d23778-1be9-4b49-8d8a-a6b02faffd4b)
-
+![image](https://github.com/user-attachments/assets/b6a9f60b-8827-4ba5-91cc-983b927cb4bc)
 
 
 More specs to come....
