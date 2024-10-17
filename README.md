@@ -24,10 +24,20 @@ Here is what it does:
 The serial commands are easy, jsut like this:
 
 ```
-"SET 2 3 1"  -> Set Module #2 , Channel #3 to "1"
+"SET 2 3 1.23"  -> Set Module #2 , Channel #3 to "1.23"
 "GET 3 1"    -> Get the value of channel #1 on module #3
-"?"          -> Get all values
+"?"          -> Get all values, depending on the modules, the answer could look like this:
+
+< == 08.01.24 14:19:00 == 1 1 1 0 0 0 0
+0.00 0.00 0.00 0.00
+0.00 0.00 0.00 0.00
+0.53 0.00 0.00 0.00
+0.00 0.00 0.00 0.00
+25.83 25.98 25.32 25.72
+0 0 0 0 0 0 0 0
+0 0 0 0 >
 ```
+
 
 
 ## Hardware
